@@ -1,0 +1,13 @@
+---
+title: "Alpha Diversity"
+format: html
+editor: visual
+---
+
+## Exploring with Transformations
+<!-- And then we can calculate alpha diversity as a function of Season. Species richness would be a simple metric, but we could play with other alpha diversity metrics that take int account abundance. This is where trying different transformations could be interesting. -->
+
+## Visualizing Species Classes over Time
+
+<!-- Finally, we talked about creating bar plots of the different classes within samples and facet gridding by month or year. This would enable the students to visually think about similar communities. -->
+
