@@ -4,6 +4,18 @@ format: html
 editor: visual
 ---
 
+```{r set-up}
+library(tidyverse)
+library(readxl)
+
+species_data <- read_xlsx(here::here("data", 
+                                     "merged_data_filtered_436.xlsx"
+                                     )
+                          ) |> 
+  janitor::clean_names()
+
+```
+
 ## Exploring with Transformations
 <!-- And then we can calculate alpha diversity as a function of Season. Species richness would be a simple metric, but we could play with other alpha diversity metrics that take int account abundance. This is where trying different transformations could be interesting. -->
 
